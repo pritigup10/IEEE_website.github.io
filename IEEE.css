@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    overflow: hidden;
+}
+.navbar{
+    display: flex;
+    margin: auto;
+    height: 100px;
+    width: 100%;
+    align-items: center;
+}
+.navbar .icon .logo img{
+    width: 280px;
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.navbar .menu ul{
+    display: flex;
+}
+.navbar .menu ul li{
+    list-style: none;
+    font-size: 20px;
+}
+.navbar .menu ul li a{
+    text-decoration: none;
+    margin: 20px;
+    font-weight: bold;
+    color: #000;
+}
+.navbar .menu ul li a:hover{
+    color: #ff7200;
+}
+.search{
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.search .srch{
+    width: 200px;
+    height: 32px;
+    background: transparent;
+    border: 2px solid #ff7200;
+    color: #000;
+    /* border-right: none; */
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.search .btn{
+    height: 32px;
+    width: 100px;
+    color: #000;
+    background: #ff7200;
+    border: 2px solid #ff7200;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+
+.container{
+    height: 520px;
+    width: 100%;
+    background: url(bb1.jpg)no-repeat center center/cover;
+}
+.text{
+    position: absolute;
+    width: 950px;
+    margin-top: 260px;
+    margin-left: 140px;
+    color: #fff;
+}
+.text h1{
+    font-size: 40px;
+}
+.text p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.text a .btn{
+    margin-top: 30px;
+    padding: 12px;
+    font-size: 17px;
+    color: #000;
+    background: #ff7200;
+    border: none;
+    border-radius: 34px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.text a .btn:hover{
+    color: #ff7200;
+    background: transparent;
+}
+.socialmedia{
+    margin-top: 30px;
+    /* margin-left: 10px; */
+}
+.socialmedia a{
+    color: #ff7200;
+    margin: 10px;
+    font-size: 30px;
+}
+.socialmedia a:hover{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
